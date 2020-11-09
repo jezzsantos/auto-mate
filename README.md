@@ -2,7 +2,7 @@
 
 At some point in every software product/project, you will have created patterns and structure (in your classes/objects/layers/systems) that you want to repeat over and over again with some pre-defined patterns. 
 
-Yeah for sure, those patterns will evolve over time, and when they do you'll want them to change where ever they are used in your code. That, after all is what refactoring is all about. Change.
+Yeah for sure, those patterns will evolve over time, and when they do you'll want them to change where ever they are used in your code. That, after all is what refactoring is all about. Change, optimization, simplification, clarity.
 
 
 For example, let's say that you are creating a web API and you have already figured out how to create your `customer` resource, All the way from endpoint's route to the persistence store. Then you go to create two other resources `order` and `product` that pretty much look the same (different data, different operations for sure), but also differ in some small ways (i.e. the name of the resource, the HTTP verbs it supports, the database's connection string, etc, etc). This we call the variability of your pattern. 
